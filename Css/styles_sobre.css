@@ -72,18 +72,12 @@ ul{
     top: 20px;
 }
 
-
 .menu ul li{
     display: inline-block;
     color: #242321;
     margin-left: 35px;
     position: relative;
 }
-
-.menu ul li:hover{
-    color: #f48c2b !important;
-}
-
 
 .menu ul li a{
     font-family: 'BlippoBlack';
@@ -94,6 +88,11 @@ ul{
     position: relative;
     overflow: hidden;
 }
+
+.menu ul li a.menu_sobre{
+    color: #f48c2b;
+}
+
 
 .menu ul li a:before {
     content: "";
@@ -114,13 +113,13 @@ ul{
     z-index: 10;
 }
 
+.menu_urls .menu ul li:hover {
+    color: #f48c2b;
+}
+
 .apresentacao{
     position: relative;
     z-index: 1;
-}
-
-.menu_urls .menu ul li:hover {
-    color: #f48c2b;
 }
 
 .busca{
