@@ -2,6 +2,10 @@
     font-family: 'BlippoBlack';
     src: url(Fontes/BlippoBlack.ttf);
 }
+@font-face {
+    font-family: 'rockwell-extra-bold';
+    src: url(Fontes/rockwell-extra-bold.ttf);
+}
 
 body{
     height: 100%;
@@ -181,7 +185,7 @@ ul{
 }
 
 .texto_rank {
-    font-family: 'BlippoBlack'; /* Mantenha a fonte consistente */
+    font-family: 'rockwell-extra-bold'; /* Mantenha a fonte consistente */
     font-size: 24px; /* Ajuste o tamanho do texto conforme necessário */
     color: #f48c2b; /* Cor do texto */
     text-transform: uppercase;
@@ -191,7 +195,7 @@ ul{
 
 .slider_m_acesso{
     margin: 0 auto;
-    width: 300px;
+    width: 980px;
     height: 300px;
     overflow: hidden;
     /*border: 3px solid #242321;*/
@@ -214,13 +218,13 @@ ul{
 }
 
 .slide img{
-    width: 300px;
+    width: 980px;
     height: 300px;
 }
 
 .nav_manual{
     position: absolute;
-    width: 300px;
+    width: 980px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -235,7 +239,7 @@ ul{
 }
 
 .manual-btn:not(:last-child){
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 .manual-btn:hover{
@@ -272,14 +276,14 @@ ul{
 
 .nav_auto{
     position: absolute;
-    width: 300px;
+    width: 980px;
     margin-top: 261px;
     display: flex;
     justify-content: center;
 }
 
 .nav_auto div:not(:last-child){
-    margin-right: 42px;
+    margin-right: 62px;
 }
 
 #radio1:checked ~.nav_auto .auto_btn1{
