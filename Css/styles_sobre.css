@@ -2,6 +2,10 @@
     font-family: 'BlippoBlack';
     src: url(Fontes/BlippoBlack.ttf);
 }
+@font-face {
+    font-family: 'rockwell-extra-bold';
+    src: url(Fontes/rockwell-extra-bold.ttf);
+}
 
 body{
     height: 100%;

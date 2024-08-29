@@ -2,6 +2,14 @@
     font-family: 'BlippoBlack';
     src: url(Fontes/BlippoBlack.ttf);
 }
+@font-face {
+    font-family: 'rockwell-extra-bold';
+    src: url(Fontes/rockwell-extra-bold.ttf);
+}
+@font-face {
+    font-family: 'NewAmsterdam-Regular';
+    src: url(Fontes/NewAmsterdam-Regular.ttf);
+}
 
 body{
     height: 100%;
@@ -148,3 +156,48 @@ ul{
     float: left;
     position: relative;
 }
+
+.header_3 {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 15px; /* Alinha a header_3 com a border-bottom da header_2 */
+    top: 30px;
+}
+
+.categorias {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.maior_acesso ul {
+    list-style-type: none; /* Remove as bolinhas de listagem */
+    padding: 0;
+    margin: 0; /* Remove margens externas */
+}
+
+.maior_acesso ul li:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.l_categorias {
+    font-family: 'NewAmsterdam-Regular'; /* Mantém a fonte consistente */
+    font-size: 28px; /* Ajuste o tamanho do texto conforme necessário */
+    text-transform: uppercase;
+    color:  #302f2c; /* Cor do texto */
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    transition: color 0.4s ease;
+}
+
+.l_categorias:hover {
+    color: #f48c2b; /* Cor do texto ao passar o mouse */
+}
+
+
+
