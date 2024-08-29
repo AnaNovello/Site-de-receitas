@@ -202,7 +202,7 @@ ul{
 }
 
 .slides{
-    width: 300%;
+    width: 500%;
     height: 300px;
     display: flex;
 }
@@ -212,9 +212,9 @@ ul{
 }
 
 .slide{
-    width: 40%;
+    width: 20%;
     position: relative;
-    transition: 2s;
+    transition: margin-left 2s ease;
 }
 
 .slide img{
@@ -246,24 +246,24 @@ ul{
     background-color: #ffffff;
 }
 
-#radio1:checked ~.first{
+#radio1:checked ~ .first {
     margin-left: 0;
 }
 
-#radio2:checked ~.first{
-    margin-left: -33.3%;
+#radio2:checked ~ .first {
+    margin-left: -20%;
 }
 
-#radio3:checked ~.first{
-    margin-left: -66.6%;
+#radio3:checked ~ .first {
+    margin-left: -40%;
 }
 
-#radio4:checked ~.first{
-    margin-left: -120%;
+#radio4:checked ~ .first {
+    margin-left: -60%;
 }
 
-#radio5:checked ~.first{
-    margin-left: -160%;
+#radio5:checked ~ .first {
+    margin-left: -80%;
 }
 
 .nav_auto div{
