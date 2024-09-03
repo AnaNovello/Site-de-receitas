@@ -305,3 +305,35 @@ ul{
 #radio5:checked ~.nav_auto .auto_btn5{
     background-color: #f48c2b;
 }
+
+.rodape {
+    background-color: #302f2c; /* Cor de fundo do rodapé */
+    color: #E6E6E6; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento interno no rodapé */
+    text-align: center; /* Centraliza o texto */
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.rodape_conteudo {
+    max-width: 980px;
+    margin: 0 auto; /* Centraliza o conteúdo do rodapé */
+}
+
+.rodape p {
+    margin: 5px 0; /* Margem entre os parágrafos */
+}
+
+.rodape_redes_sociais {
+    margin-top: 10px; /* Espaçamento acima das redes sociais */
+}
+
+.rodape_redes_sociais a {
+    margin: 0 10px; /* Espaçamento entre os ícones das redes sociais */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave ao passar o mouse */
+}
+
+.rodape_redes_sociais a:hover {
+    transform: scale(1.2); /* Aumenta o ícone ao passar o mouse */
+}

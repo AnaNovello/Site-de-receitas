@@ -70,16 +70,6 @@ ul{
     box-sizing: border-box;
 }
 
-.p_1{
-    font-family: 'sans-serif';
-    color: #242321;
-    width: 100%;
-    max-width: 980px;
-    margin: 0 auto;
-    position: relative;
-    top: 20px;
-}
-
 .menu ul li{
     display: inline-block;
     color: #242321;
@@ -183,7 +173,10 @@ ul{
 .maior_acesso ul li:not(:last-child){
     margin-bottom: 30px;
 }
-
+.header_categorias{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .l_categorias {
     font-family: 'NewAmsterdam-Regular'; /* Mantém a fonte consistente */
     font-size: 28px; /* Ajuste o tamanho do texto conforme necessário */
@@ -192,12 +185,50 @@ ul{
     text-decoration: none;
     cursor: pointer;
     display: block;
-    transition: color 0.4s ease;
+    padding: 10px;
+    border: 2px solid #E6E6E6;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 0.6s ease;
 }
 
 .l_categorias:hover {
     color: #f48c2b; /* Cor do texto ao passar o mouse */
+    border-color: #f48c2b;
 }
+.rodape {
+    background-color: #302f2c; /* Cor de fundo do rodapé */
+    color: #E6E6E6; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento interno no rodapé */
+    text-align: center; /* Centraliza o texto */
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.rodape_conteudo {
+    max-width: 980px;
+    margin: 0 auto; /* Centraliza o conteúdo do rodapé */
+}
+
+.rodape p {
+    margin: 5px 0; /* Margem entre os parágrafos */
+}
+
+.rodape_redes_sociais {
+    margin-top: 10px; /* Espaçamento acima das redes sociais */
+}
+
+.rodape_redes_sociais a {
+    margin: 0 10px; /* Espaçamento entre os ícones das redes sociais */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave ao passar o mouse */
+}
+
+.rodape_redes_sociais a:hover {
+    transform: scale(1.2); /* Aumenta o ícone ao passar o mouse */
+}
+
 
 
 

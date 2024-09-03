@@ -77,12 +77,31 @@ ul{
     box-sizing: border-box;
 }
 
+.p_1{
+    font-family: 'sans-serif';
+    color: #242321;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+
+.menu ul li a.menu_categorias{
+    color: #f48c2b;
+}
+
 .menu ul li{
     display: inline-block;
     color: #242321;
     margin-left: 35px;
     position: relative;
 }
+
+.menu ul li:hover{
+    color: #f48c2b !important;
+}
+
 
 .menu ul li a{
     font-family: 'BlippoBlack';
@@ -92,10 +111,6 @@ ul{
     text-transform: uppercase;
     position: relative;
     overflow: hidden;
-}
-
-.menu ul li a.menu_tot_receitas{
-    color: #f48c2b;
 }
 
 .menu ul li a:before {
@@ -149,20 +164,53 @@ ul{
     position: relative;
 }
 
-.header_3 {
-    width: 100%;
-    max-width: 980px;
-    margin: 0 auto;
-    position: relative;
-    box-sizing: border-box;
-    top: 30px;
+
+.classica_inicio {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    /*align-items: center; Centraliza o conteúdo verticalmente */
+    height: 100%; /* Ajusta a altura para preencher o espaço disponível */
 }
 
-.receitas {
+.txt_classica {
+    text-align: center;
+}
+
+.txt_classica ul {
+    list-style-type: none; /* Remove as bolinhas de listagem */
+    padding: 0; /* Remove o espaçamento interno do UL */
+    margin: 40px; /* Remove margens externas */
+}
+
+.receitas_classicas {
+    font-family: 'rockwell-extra-bold'; /* Mantenha a fonte consistente */
+    font-size: 24px; /* Ajuste o tamanho do texto conforme necessário */
+    color: #f48c2b; /* Cor do texto */
+    text-transform: uppercase;
+    margin: 0; /* Remove margens extras */
+    display: block; /* Garante que o texto ocupe toda a linha */
+}
+
+.capa{
+    margin: 0 auto;
+    width: 980px;
+    height: 300px;
+    overflow: hidden;
+    /*border: 3px solid #242321;*/
+}
+
+.lista {
     width: 100%;
     max-width: 980px;
     margin: 0 auto;
     position: relative;
+}
+.capa{
+    padding-bottom: 50px;
+}
+
+.lista_receitas{
+    padding-bottom: 30px;
 }
 
 .lista_receitas ul {
@@ -174,9 +222,7 @@ ul{
 .lista_receitas ul li:not(:last-child){
     margin-bottom: 10px;
 }
-.header_receitas{
-    padding-bottom: 50px;
-}
+
 .l_receita {
     font-size: 16px; /* Ajuste o tamanho do texto conforme necessário */
     text-transform: uppercase;
